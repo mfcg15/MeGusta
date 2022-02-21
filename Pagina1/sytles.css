@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    padding-top: 40px;    
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor
+{
+    border: 2px solid black;
+    width: 40%;
+    padding: 20px 30px 20px 30px;
+}
+
+.parte_superior
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+p
+{
+    font-size: 32px;
+}
+
+.botonAmarillo
+{
+    background-color: yellow;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 5px 15px 5px 15px;
+    border: 2px solid black;
+    box-shadow: 4px 2px black;
+    cursor: pointer;
+}

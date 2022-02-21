@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav
+{
+    padding: 16px;
+    background-color: black;
+    color: white;
+    width: 61.5%;
+}
+
+.contenedor_titulo
+{
+    padding: 10px;
+    text-align: center;
+    width: 61.5%;
+}
+
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    width: 61.5%;
+}
+
+.main_izquierdo
+{
+    border: 2px solid black;
+    padding: 32px;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+img
+{
+    margin-bottom: 20px;
+}
+
+h3
+{
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.aumentar
+{
+    font-size: 24px;
+}
+
+.main_derecho
+{
+    width: 70%;
+}
+
+.campos
+{
+    border: 2px solid black;
+    padding: 20px 30px 20px 30px;
+    margin-bottom: 10px;
+}
+
+p
+{
+    font-size: 36px;
+}
+
+.parte_superior
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.botonAmarillo
+{
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 15px 5px 15px;
+    border: 2px solid black;
+    box-shadow: 4px 2px black;
+    cursor: pointer;
+}
